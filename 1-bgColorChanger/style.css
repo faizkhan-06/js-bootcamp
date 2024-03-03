@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #212121;
+}
+main {
+  height: 95vh;
+  margin-bottom: 20px;
+}
+.flex {
+  display: flex;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.center-end {
+  align-items: end;
+  justify-content: center;
+}
+
+.container {
+  border: 2px solid white;
+  gap: 10px;
+  border-radius: 30px;
+  background-color: #212121;
+}
+.button {
+  background-color: crimson;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 40px;
+}
+.button:hover {
+  cursor: pointer;
+}
+#raspberry {
+  background-color: #e30b5c;
+}
+#orchid {
+  background-color: #da70d6;
+}
+#amaranth {
+  background-color: #9f2b68;
+}
+#purple {
+  background-color: #800080;
+}
