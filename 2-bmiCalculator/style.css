@@ -1,0 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: cursive;
+}
+body {
+  background-color: #212121;
+  color: #fff;
+}
+main {
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.mid-center {
+  justify-content: center;
+}
+.container {
+  height: 50vh;
+}
+.heading {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height: 10vh;
+  font-size: xx-large;
+}
+.input {
+  width: 20vw;
+  padding: 5px;
+  margin-top: 10px;
+  margin: 10px 15px;
+}
+.inputs {
+  margin-top: 30px;
+}
+.inp-block span {
+  font-size: large;
+}
+.btn {
+  position: relative;
+  left: 34vw;
+  width: 50px;
+  margin-top: 20px;
+}
+.btn button {
+  padding: 5px 20px;
+  background-color: #800080;
+  border: 0px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: large;
+}
+.btn button:hover {
+  cursor: pointer;
+}
+.info {
+  margin-top: 20px;
+  height: 20vh;
+}
+.info span {
+  margin-bottom: 10px;
+}
+.info-heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+.result {
+  height: 10vh;
+  padding: 10px;
+}
+
+.color-id {
+  padding: 0px 10px;
+  /* background-color: #fff; */
+  border-radius: 50%;
+  margin: 10px;
+}
+.bmi-val {
+  margin-bottom: 6px;
+  font-size: larger;
+  font-weight: 500;
+}
+#red {
+  background-color: #d2042d;
+}
+#green {
+  background-color: #228b22;
+}
