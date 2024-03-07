@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #212121;
+  font-family: cursive;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  padding: 50px 100px;
+  background-color: #da70d6;
+  border-radius: 40px;
+  box-shadow: 5px 10px rgb(27, 27, 27);
+  text-align: center;
+  color: #212121;
+  font-size: xx-large;
+}
